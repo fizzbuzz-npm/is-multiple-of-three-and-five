@@ -1,12 +1,12 @@
 const test = require('ava');
-const isMultipleOf3 = require("./index.js");
+const isMultipleOf3and5 = require("./index.js");
 
 test('numbers', t => {
-    t.is(isMultipleOf3(6), true);
-    t.is(isMultipleOf3(10), false);
+    t.is(isMultipleOf3and5(30), true);
+    t.is(isMultipleOf3and5(6), false);
 });
 
 test('strings', t => {
-    t.is(isMultipleOf3("9"), true);
-    t.is(isMultipleOf3(14), false);
+    t.is(isMultipleOf3and5("15"), true);
+    t.is(isMultipleOf3and5(14), false);
 });
