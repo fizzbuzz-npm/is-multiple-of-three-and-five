@@ -1653,6 +1653,22 @@ is-installed-globally@^0.1.0:
     global-dirs "^0.1.0"
     is-path-inside "^1.0.0"
 
+is-multiple-of-3@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/is-multiple-of-3/-/is-multiple-of-3-1.0.1.tgz#5da6d401d6248a26ce6a74b4e2b130aba88555e4"
+  integrity sha512-XPMR82ZLyCHYzsas915KCUFJP1EeCe5TGpW9gM8XnJuM+U7oHUM5WXaTvuXNlFQXFKM7UfFw/gz4Ij5Ru8Ug7g==
+  dependencies:
+    is-multiple-of "^1.0.0"
+    to-integer "^1.0.1"
+
+is-multiple-of-5@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/is-multiple-of-5/-/is-multiple-of-5-1.0.0.tgz#23815b714b5d041127cbbb3f069cc7c6c7bb71c5"
+  integrity sha512-3wOwHP97MmpmzU6A9XfCWeqsvAih14OgTrTepvW0S1SzDjn2WXtF1IP6NSnn0ht7/w9x2+ryStcq0Oj3ZR4FPA==
+  dependencies:
+    is-multiple-of "^1.0.0"
+    to-integer "^1.0.1"
+
 is-multiple-of@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/is-multiple-of/-/is-multiple-of-1.0.0.tgz#937a82773ebbc160d902ec43c1621e3cd78d82a0"
