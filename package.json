@@ -1,9 +1,9 @@
 {
-  "name": "is-multiple-of-3-and-5",
+  "name": "is-multiple-of-three-and-five",
   "version": "1.0.0",
   "description": "Is `value` a multiple of 3 and 5?",
-  "homepage": "https://github.com/fizzbuzz-npm/is-multiple-of-3-and-5",
-  "repository": "github:buzzbuzz-npm/is-multiple-of-3-and-5",
+  "homepage": "https://github.com/fizzbuzz-npm/is-multiple-of-three-and-five",
+  "repository": "github:buzzbuzz-npm/is-multiple-of-three-and-five",
   "main": "index.js",
   "scripts": {
     "lint": "eslint index.js",
